@@ -1,9 +1,7 @@
 header {
     background-color: #375cc0;
     color: #fff;
-    display: flex;
-    align-items: center;
-    padding: 1em;
+    
   }
 
   header img {
@@ -19,7 +17,8 @@ header {
   }
 
   nav {
-    display: flex;
+    display: block; 
+    text-align: right;
   }
 
   a:hover {
@@ -31,5 +30,17 @@ header {
     text-decoration: none;
     margin-right: 1em;
   }
+
+  .topnav {
+    
+
+  }
+
+  ul {
+    list-style-type: none;
+  }
+ 
+    
+    
 
   
