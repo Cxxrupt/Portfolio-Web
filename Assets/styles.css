@@ -16,7 +16,7 @@ header {
     margin: 0;
   }
 
-  a:hover {
+  nav a:hover {
     color: rgb(255, 0, 0);
   }
   
@@ -46,7 +46,7 @@ header {
     align-items: center;
     height: 60px;
     background-color: #3f51b5;
-    padding: 0 20px;
+    padding: 20px 20px;
     color: white;
   }
 
@@ -57,3 +57,37 @@ header {
     font-size: 16px;
     margin-right: 20px;
   }
+
+  nav a:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .Project1 {
+    position: absolute;
+    box-shadow: 
+    rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+  }
+
+ .Project2 {
+    position: absolute;
+    left: 400px;
+  }
+
+ .Project3 {
+    position: absolute;
+    left: 800px;
+  }
+
+ .Project4 {
+    position: relative;
+    left: 1200px;
+  }
+
