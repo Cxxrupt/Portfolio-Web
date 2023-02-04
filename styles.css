@@ -21,10 +21,11 @@ header {
   nav {
     display: flex;
   }
+
   a:hover {
     color: rgb(255, 0, 0);
   }
-
+  
   nav a {
     color: #fff;
     text-decoration: none;
