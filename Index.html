@@ -7,8 +7,11 @@
   </head>
   <body>
     <header>
+      <img src="https://via.placeholder.com/75x75" alt="Developer's Avatar" />
+      <h1>Jackson Zilverberg</h1>
       <nav>
         <ul>
+          <p>Jackson Zilveberg Portfolio</p>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
@@ -16,11 +19,34 @@
       </nav>
     </header>
     <main>
-      <h1></h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <section id="about">
+        <h2>About me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </section>
+      <section id="work">
+        <h2>My work</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <ul>
+          <li><a href="#">Project 1</a></li>
+          <li><a href="#">Project 2</a></li>
+          <li><a href="#">Project 3</a></li>
+          <li><a href="#">Project 4</a></li>
+          <li><a href="#">Project 5</a></li>
+        </ul>
+      </section>
     </main>
     <footer>
       <p>Copyright © 2023 Jackson Z</p>
+      <form>
+        <h2>Contact Me</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Submit" />
+      </form>
     </footer>
   </body>
 </html>
