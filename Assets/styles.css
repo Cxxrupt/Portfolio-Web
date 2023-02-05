@@ -4,6 +4,10 @@ header {
     
   }
 
+  body {
+    background-color: #9da0a8;
+  }
+
   header img {
     width: 75px;
     height: 75px;
@@ -19,17 +23,9 @@ header {
   nav a:hover {
     color: rgb(255, 0, 0);
   }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 1em;
-  }
 
-  .topnav {
-    display: block; 
-    text-align: right;
-    
+  .toplinks {
+    color: darkgoldenrod;
   }
 
   ul {
@@ -67,27 +63,21 @@ header {
     max-height: 200px;
   }
 
-  .Project1 {
-    position: absolute;
-    box-shadow: 
-    rgba(0, 0, 0, 0.4) 0px 2px 4px, 
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
-    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    
+  .work {
+    display: inline-block;
   }
 
- .Project2 {
-    position: absolute;
-    left: 400px;
+  ul {
+    display: flex;
   }
-
- .Project3 {
-    position: absolute;
-    left: 800px;
-  }
-
- .Project4 {
-    position: relative;
-    left: 1200px;
+  
+img {
+    max-width: 200px;
+    max-height: 200px;
+    background-color: aliceblue;
+    display: inline
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
   }
 
