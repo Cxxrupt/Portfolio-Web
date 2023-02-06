@@ -31,3 +31,7 @@ When you open the website, you are greeted w/ a header that includes my name, a 
 ## Working on
 
 <ul>
+Updated Styling for better design and accessibility
+Project Links direct to the project's website instead of my github page everytime
+Better Header
+Refactored Code for easier styling
