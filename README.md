@@ -7,6 +7,7 @@ This is my portfolio website containing my previous work and contact info.
 - [Overview](#overview)
 - [Requirements](#requirements)
 - [Usage](#usage)
+- [Working on](#Working on)
 
 ## Overview
 
@@ -15,11 +16,18 @@ This is my portfolio website containing my previous work and contact info. This 
 ## Requirements
 
 All web applications are accessible
--Chrome is supported
--Firefox is supported
--Opera is supported
--ETC
+
+<ul>
+Chrome is supported
+Firefox is supported
+Opera is supported
+ETC
+</ul>
 
 ## Usage
 
 When you open the website, you are greeted w/ a header that includes my name, a picture, and a link bar to corresponding sections. When you click a link, you will be redirected to the appropriate section. Hover effects have been implemented for better design. When an image is clicked, you will be redirected to the project's website.
+
+## Working on
+
+<ul>
